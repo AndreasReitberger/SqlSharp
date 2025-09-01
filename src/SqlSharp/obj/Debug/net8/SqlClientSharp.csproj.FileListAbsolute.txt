@@ -1,0 +1,13 @@
+C:\Users\q36606\Documents\GitHub\SqlSharp\src\SqlSharp\bin\Debug\net8\SqlClientSharp.deps.json
+C:\Users\q36606\Documents\GitHub\SqlSharp\src\SqlSharp\bin\Debug\net8\SqlClientSharp.dll
+C:\Users\q36606\Documents\GitHub\SqlSharp\src\SqlSharp\bin\Debug\net8\SqlClientSharp.pdb
+C:\Users\q36606\Documents\GitHub\SqlSharp\src\SqlSharp\obj\Debug\net8\SqlClientSharp.csproj.AssemblyReference.cache
+C:\Users\q36606\Documents\GitHub\SqlSharp\src\SqlSharp\obj\Debug\net8\SqlClientSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\q36606\Documents\GitHub\SqlSharp\src\SqlSharp\obj\Debug\net8\SqlClientSharp.AssemblyInfoInputs.cache
+C:\Users\q36606\Documents\GitHub\SqlSharp\src\SqlSharp\obj\Debug\net8\SqlClientSharp.AssemblyInfo.cs
+C:\Users\q36606\Documents\GitHub\SqlSharp\src\SqlSharp\obj\Debug\net8\SqlClientSharp.csproj.CoreCompileInputs.cache
+C:\Users\q36606\Documents\GitHub\SqlSharp\src\SqlSharp\obj\Debug\net8\SqlClientSharp.sourcelink.json
+C:\Users\q36606\Documents\GitHub\SqlSharp\src\SqlSharp\obj\Debug\net8\SqlClientSharp.dll
+C:\Users\q36606\Documents\GitHub\SqlSharp\src\SqlSharp\obj\Debug\net8\refint\SqlClientSharp.dll
+C:\Users\q36606\Documents\GitHub\SqlSharp\src\SqlSharp\obj\Debug\net8\SqlClientSharp.pdb
+C:\Users\q36606\Documents\GitHub\SqlSharp\src\SqlSharp\obj\Debug\net8\ref\SqlClientSharp.dll
