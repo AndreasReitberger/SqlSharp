@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8</TargetFrameworks>
+    <RootNamespace>AndreasReitberger.SQL</RootNamespace>
+    <Version>1.0.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Andreas Reitberger</Authors>
+    <Description>A library to communicate with a SQL server.</Description>
+    <Copyright>Andreas Reitberger</Copyright>
+    <PackageTags>SQL, Server, Client, Communication, SQL</PackageTags>
+    <Title>SqlSharp</Title>
+	<OutputType>Library</OutputType>
+	  <LangVersion>Preview</LangVersion>
+	  <Nullable>enable</Nullable>
+	  
+	<PackageProjectUrl>https://github.com/AndreasReitberger/SqlSharp</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/AndreasReitberger/SqlSharp</RepositoryUrl>
+	<RepositoryType>git</RepositoryType>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+
+	  <!--Source-Linking-->
+	<PublishReadyToRun>true</PublishReadyToRun>
+	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	<EmbedUntrackedSources>true</EmbedUntrackedSources>
+	<IncludeSymbols>true</IncludeSymbols>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<None Include="..\..\art\ar_128.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.1" />
+		<PackageReference Include="SharedNetCoreLibrary" Version="1.1.17" />
+	</ItemGroup>
+</Project>

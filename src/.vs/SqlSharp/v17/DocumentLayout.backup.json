@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp\\sqlclientsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|solutionrelative:sqlsharp\\sqlclientsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlDatabaseSharp.NUnitTest.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp.nunittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlDatabaseSharp.NUnitTest.csproj|solutionrelative:sqlsharp.nunittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp\\sqlclientsharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|solutionrelative:sqlsharp\\sqlclientsharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp.nunittest\\sqlclientsharp.nunittest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj|solutionrelative:sqlsharp.nunittest\\sqlclientsharp.nunittest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\Directory.Build.props||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|solutionrelative:Directory.Build.props||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\Directory.Build.targets||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|solutionrelative:Directory.Build.targets||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlSharp.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp\\models\\events\\databasequeryresulteventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlSharp.csproj|solutionrelative:sqlsharp\\models\\events\\databasequeryresulteventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp.NUnitTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "SqlSharp.NUnitTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp.NUnitTest\\UnitTest1.cs",
+              "RelativeToolTip": "SqlSharp.NUnitTest\\UnitTest1.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwEoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T08:09:39.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAHcIAAAAAAAAAAAMwIMIAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-09-01T08:07:27.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SqlClientSharp.NUnitTest.csproj",
+              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj",
+              "RelativeDocumentMoniker": "SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj",
+              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj",
+              "RelativeToolTip": "SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-01T07:49:55.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SqlClientSharp.cs",
+              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\SqlClientSharp.cs",
+              "RelativeDocumentMoniker": "SqlSharp\\SqlClientSharp.cs",
+              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\SqlClientSharp.cs",
+              "RelativeToolTip": "SqlSharp\\SqlClientSharp.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAmwCgBAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T05:12:57.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SqlSharp.csproj",
+              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\SqlClientSharp.csproj",
+              "RelativeDocumentMoniker": "SqlSharp\\SqlClientSharp.csproj",
+              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\SqlClientSharp.csproj",
+              "RelativeToolTip": "SqlSharp\\SqlClientSharp.csproj",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-01T05:12:11.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DatabaseQueryResultEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\Models\\Events\\DatabaseQueryResultEventArgs.cs",
+              "RelativeDocumentMoniker": "SqlSharp\\Models\\Events\\DatabaseQueryResultEventArgs.cs",
+              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\Models\\Events\\DatabaseQueryResultEventArgs.cs",
+              "RelativeToolTip": "SqlSharp\\Models\\Events\\DatabaseQueryResultEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T05:13:33.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Directory.Build.targets",
+              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\Directory.Build.targets",
+              "RelativeDocumentMoniker": "Directory.Build.targets",
+              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\Directory.Build.targets",
+              "RelativeToolTip": "Directory.Build.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-09-01T05:24:20.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Directory.Build.props",
+              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\Directory.Build.props",
+              "RelativeDocumentMoniker": "Directory.Build.props",
+              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\Directory.Build.props",
+              "RelativeToolTip": "Directory.Build.props",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-09-01T05:26:00.698Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
