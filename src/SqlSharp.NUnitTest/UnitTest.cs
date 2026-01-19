@@ -1,23 +1,33 @@
-using AndreasReitberger.Shared.Core.Utilities;
+using SqlClientSharp.NUnitTest;
 using System.Data;
-using System.Security;
 
 namespace AndreasReitberger.SQL.NUnitTest
 {
     public class Tests
     {
-        string _server = "server";
-        string _databaseName = "database";
-        string _user = "user";
-        string _password = "MyPassword";
-        string _domain = "workgroup";
+        string _server = SecretAppSettingReader.ReadSection<SecretAppSetting>("TestSetup").Server ?? "";
+        string _databaseName = SecretAppSettingReader.ReadSection<SecretAppSetting>("TestSetup").DatabaseName ?? "";
+        string _user = SecretAppSettingReader.ReadSection<SecretAppSetting>("TestSetup").User ?? "";
+        string _password = SecretAppSettingReader.ReadSection<SecretAppSetting>("TestSetup").Password ?? "";
         string _connectionString = string.Empty;
+
+
+        SqlClientSharp? client = null;
 
         [SetUp]
         public void Setup()
         {
             _connectionString = $"Data Source={_server};Initial Catalog={_databaseName};Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            client = new SqlClientSharp.SqlClientConnectionBuilder()
+                .WithConnectionString(_connectionString)
+                .WithCredentials(_user, _password)
+                .Build();
+        }
 
+        [TearDown]
+        public void TearDown()
+        {
+            client?.Dispose();
         }
 
         [Test]
@@ -25,8 +35,8 @@ namespace AndreasReitberger.SQL.NUnitTest
         {
             try
             {
-                SqlClientSharp.InitDatabase(_connectionString, _user, _password, _domain);
-                Assert.That(SqlClientSharp.Current.IsInitialized);
+                if (client is null) throw new NullReferenceException($"The client was null!");
+                Assert.That(client.IsInitialized);
             }
             catch (Exception exc)
             {
@@ -39,8 +49,7 @@ namespace AndreasReitberger.SQL.NUnitTest
         {
             try
             {
-                SqlClientSharp.InitDatabase(_connectionString, _user, _password, _domain);
-
+                if (client is null) throw new NullReferenceException($"The client was null!");
                 string table = "Logs l";
                 string data =
                     "l.log_id, " +
@@ -72,7 +81,7 @@ namespace AndreasReitberger.SQL.NUnitTest
                 string group = "group by log_id";
 
                 string cmd = $"select {data} from {table} {join} {(string.IsNullOrEmpty(filter) ? string.Empty : $"where {filter}")} {group};";
-                DataTable logs = await SqlClientSharp.Current.QueryCommandAsync(cmd).ConfigureAwait(false);
+                DataTable logs = await client.QueryCommandAsync(cmd).ConfigureAwait(false);
                 Assert.That(logs != null && logs.Rows.Count > 0);
             }
             catch (Exception exc)
