@@ -1,5 +1,6 @@
 ﻿using AndreasReitberger.Shared.Core.Utilities;
 using AndreasReitberger.SQL.Events;
+using AndreasReitberger.SQL.Interfaces;
 using CommunityToolkit.Mvvm.ComponentModel;
 using Microsoft.Data.SqlClient;
 using System;
@@ -12,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace AndreasReitberger.SQL
 {
-    public partial class SqlClientSharp : ObservableObject, IDisposable
+    public partial class SqlClientSharp : ObservableObject, ISqlClientSharp
     {
         #region Instance
         private static SqlClientSharp? _instance;
@@ -54,6 +55,35 @@ namespace AndreasReitberger.SQL
         public partial SqlConnection? Connection { get; set; }
         #endregion
 
+        #region Ctor
+        public SqlClientSharp()
+        {
+            _instance = this;
+        }
+        public SqlClientSharp(string connectionString) : this()
+        {
+            ConnectionString = connectionString;
+            IsInitialized = true;
+        }
+        public SqlClientSharp(string connectionString, string username, string password) : this(connectionString)
+        {
+            ConnectionString = connectionString;
+            Credentials = new SqlCredential(username, SecureStringHelper.ConvertToSecureString(password));
+
+            UserId = username;
+            UserPassword = password;
+
+            IsInitialized = true;
+        }
+        #endregion
+
+        #region Dtor
+        ~SqlClientSharp()
+        {
+            Dispose();
+        }
+        #endregion
+
         #region Events
 
         public event EventHandler? Error;
@@ -69,44 +99,18 @@ namespace AndreasReitberger.SQL
         {
             Error?.Invoke(this, e);
         }
-
         public event EventHandler<DatabaseQueryResultEventArgs>? DatabaseQueryCompleted;
         protected virtual void OnDatabaseQueryCompleted(DatabaseQueryResultEventArgs e)
         {
             DatabaseQueryCompleted?.Invoke(this, e);
         }
         #endregion
-
-        #region Constructor
-        public SqlClientSharp()
-        {
-            _instance = this;
-        }
-        public SqlClientSharp(string connectionString)
-        {
-            ConnectionString = connectionString;
-            IsInitialized = true;
-            _instance = this;
-        }
-        public SqlClientSharp(string connectionString, string username, string password, string userDomain = "workgroup")
-        {
-            ConnectionString = connectionString;
-            Credentials = new SqlCredential(username, SecureStringHelper.ConvertToSecureString(password));
-
-            UserId = username;
-            UserPassword = password;
-            UserDomain = userDomain;
-
-            IsInitialized = true;
-            _instance = this;
-        }
-        #endregion
        
         #region Methods
 
-        public static void InitDatabase(string connectionString, string username, string password, string userDomain = "workgroup")
+        public void InitDatabase(string connectionString, string username, string password)
         {
-            _instance = new SqlClientSharp(connectionString, username, password, userDomain)
+            _instance = new SqlClientSharp(connectionString, username, password)
             {
                 IsInitialized = true
             };
