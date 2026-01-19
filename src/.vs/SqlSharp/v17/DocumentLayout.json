@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp\\sqlclientsharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|solutionrelative:sqlsharp\\sqlclientsharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp\\sqlclientsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|solutionrelative:sqlsharp\\sqlclientsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlDatabaseSharp.NUnitTest.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp.nunittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlDatabaseSharp.NUnitTest.csproj|solutionrelative:sqlsharp.nunittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp\\sqlclientsharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|solutionrelative:sqlsharp\\sqlclientsharp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp\\interfaces\\isqlclientsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|solutionrelative:sqlsharp\\interfaces\\isqlclientsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp.nunittest\\sqlclientsharp.nunittest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -30,8 +30,12 @@
       "RelativeMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|solutionrelative:Directory.Build.targets||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlSharp.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp\\models\\events\\databasequeryresulteventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlSharp.csproj|solutionrelative:sqlsharp\\models\\events\\databasequeryresulteventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp.nunittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj|solutionrelative:sqlsharp.nunittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp\\models\\events\\databasequeryresulteventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|solutionrelative:sqlsharp\\models\\events\\databasequeryresulteventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,11 +45,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SqlClientSharp.cs",
+              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\SqlClientSharp.cs",
+              "RelativeDocumentMoniker": "SqlSharp\\SqlClientSharp.cs",
+              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\SqlClientSharp.cs",
+              "RelativeToolTip": "SqlSharp\\SqlClientSharp.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAmwEkAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T05:12:57.287Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ISqlClientSharp.cs",
+              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\Interfaces\\ISqlClientSharp.cs",
+              "RelativeDocumentMoniker": "SqlSharp\\Interfaces\\ISqlClientSharp.cs",
+              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\Interfaces\\ISqlClientSharp.cs",
+              "RelativeToolTip": "SqlSharp\\Interfaces\\ISqlClientSharp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T05:37:27.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp.NUnitTest\\UnitTest1.cs",
               "RelativeDocumentMoniker": "SqlSharp.NUnitTest\\UnitTest1.cs",
@@ -53,8 +92,7 @@
               "RelativeToolTip": "SqlSharp.NUnitTest\\UnitTest1.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwEoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T08:09:39.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T08:09:39.738Z"
             },
             {
               "$type": "Document",
@@ -66,8 +104,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAHcIAAAAAAAAAAAMwIMIAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-09-01T08:07:27.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T08:07:27.881Z"
             },
             {
               "$type": "Document",
@@ -85,32 +122,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SqlClientSharp.cs",
-              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\SqlClientSharp.cs",
-              "RelativeDocumentMoniker": "SqlSharp\\SqlClientSharp.cs",
-              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\SqlClientSharp.cs",
-              "RelativeToolTip": "SqlSharp\\SqlClientSharp.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAmwCgBAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T05:12:57.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SqlSharp.csproj",
+              "Title": "SqlClientSharp.csproj",
               "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\SqlClientSharp.csproj",
               "RelativeDocumentMoniker": "SqlSharp\\SqlClientSharp.csproj",
               "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\SqlClientSharp.csproj",
               "RelativeToolTip": "SqlSharp\\SqlClientSharp.csproj",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-09-01T05:12:11.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DatabaseQueryResultEventArgs.cs",
               "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\Models\\Events\\DatabaseQueryResultEventArgs.cs",
               "RelativeDocumentMoniker": "SqlSharp\\Models\\Events\\DatabaseQueryResultEventArgs.cs",
@@ -118,8 +142,7 @@
               "RelativeToolTip": "SqlSharp\\Models\\Events\\DatabaseQueryResultEventArgs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T05:13:33.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T05:13:33.967Z"
             },
             {
               "$type": "Document",
@@ -131,8 +154,7 @@
               "RelativeToolTip": "Directory.Build.targets",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-09-01T05:24:20.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T05:24:20.199Z"
             },
             {
               "$type": "Document",
@@ -144,8 +166,7 @@
               "RelativeToolTip": "Directory.Build.props",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-09-01T05:26:00.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T05:26:00.698Z"
             }
           ]
         }

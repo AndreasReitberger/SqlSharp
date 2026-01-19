@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>net8</TargetFrameworks>
     <RootNamespace>AndreasReitberger.SQL</RootNamespace>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Andreas Reitberger</Authors>
     <Description>A library to communicate with a SQL server.</Description>
@@ -11,8 +11,8 @@
     <PackageTags>SQL, Server, Client, Communication, SQL</PackageTags>
     <Title>SqlSharp</Title>
 	<OutputType>Library</OutputType>
-	  <LangVersion>Preview</LangVersion>
-	  <Nullable>enable</Nullable>
+	<LangVersion>Preview</LangVersion>
+	<Nullable>enable</Nullable>
 	  
 	<PackageProjectUrl>https://github.com/AndreasReitberger/SqlSharp</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/AndreasReitberger/SqlSharp</RepositoryUrl>
@@ -24,6 +24,11 @@
 	<PublishRepositoryUrl>true</PublishRepositoryUrl>
 	<EmbedUntrackedSources>true</EmbedUntrackedSources>
 	<IncludeSymbols>true</IncludeSymbols>
+
+	  <IsTrimmable>true</IsTrimmable>
+	  <!-- Ref: https://learn.microsoft.com/en-us/dotnet/maui/deployment/trimming?view=net-maui-10.0#suppress-analysis-warnings -->
+	  <SuppressTrimAnalysisWarnings>false</SuppressTrimAnalysisWarnings>
+	  <TrimmerSingleWarn>false</TrimmerSingleWarn>
   </PropertyGroup>
 
 	<ItemGroup>
