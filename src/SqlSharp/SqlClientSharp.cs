@@ -5,7 +5,6 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using Microsoft.Data.SqlClient;
 using System;
 using System.Data;
-using System.Data.Common;
 using System.Diagnostics;
 using System.IO;
 using System.Runtime.Versioning;
@@ -15,32 +14,12 @@ namespace AndreasReitberger.SQL
 {
     public partial class SqlClientSharp : ObservableObject, ISqlClientSharp
     {
-        #region Instance
-        private static SqlClientSharp? _instance;
-        public static SqlClientSharp Current
-        {
-            get
-            {
-                _instance ??= new SqlClientSharp();
-                return _instance;
-            }
-            private set
-            {
-                if (_instance == value) return;
-                _instance = value;
-            }
-        }
-        #endregion
-
         #region Properties
         [ObservableProperty]
         public partial bool IsInitialized { get; set; }
 
         [ObservableProperty]
         public partial string ConnectionString { get; set; } = string.Empty;
-
-        [ObservableProperty]
-        public partial string UserDomain { get; set; } = string.Empty;
 
         [ObservableProperty]
         public partial string UserId { get; set; } = string.Empty;
@@ -56,10 +35,7 @@ namespace AndreasReitberger.SQL
         #endregion
 
         #region Ctor
-        public SqlClientSharp()
-        {
-            _instance = this;
-        }
+        public SqlClientSharp() { }
         public SqlClientSharp(string connectionString) : this()
         {
             ConnectionString = connectionString;
@@ -107,14 +83,6 @@ namespace AndreasReitberger.SQL
         #endregion
        
         #region Methods
-
-        public void InitDatabase(string connectionString, string username, string password)
-        {
-            _instance = new SqlClientSharp(connectionString, username, password)
-            {
-                IsInitialized = true
-            };
-        }
 
         public async Task<double> ExecuteCommandAsync(string queryString)
         {

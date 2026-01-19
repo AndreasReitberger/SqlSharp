@@ -9,10 +9,8 @@ namespace AndreasReitberger.SQL.Interfaces
     public interface ISqlClientSharp : IDisposable
     {
         #region Properties
-        public static ISqlClientSharp? Current { get; private set; }
         public bool IsInitialized { get; set; }
         public string ConnectionString { get; set; }
-        public string UserDomain { get; set; }
         public string UserId { get; set; }
         public string UserPassword { get; set; }
         public SqlCredential? Credentials { get; set; }
@@ -25,7 +23,6 @@ namespace AndreasReitberger.SQL.Interfaces
         #endregion
 
         #region Methods
-        public void InitDatabase(string connectionString, string username, string password);
         public Task<double> ExecuteCommandAsync(string queryString);
         public double ExecuteCommand(string queryString);
         public long ExecuteScalarCommand(string queryString);

@@ -1,7 +1,39 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp\\sqlclientconnectionbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|solutionrelative:sqlsharp\\sqlclientconnectionbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp.nunittest\\unittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj|solutionrelative:sqlsharp.nunittest\\unittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp.nunittest\\secrets_sample.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj|solutionrelative:sqlsharp.nunittest\\secrets_sample.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\q36606\\AppData\\Roaming\\Microsoft\\UserSecrets\\c562c7ff-3260-4cb0-ab5e-c140fbad186c\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp.nunittest\\secretappsettingreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj|solutionrelative:sqlsharp.nunittest\\secretappsettingreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp.nunittest\\secretappsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2AD8866-3F95-4058-AC57-3A86D60E8643}|SqlSharp.NUnitTest\\SqlClientSharp.NUnitTest.csproj|solutionrelative:sqlsharp.nunittest\\secretappsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp\\sqlclientsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|solutionrelative:sqlsharp\\sqlclientsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|c:\\users\\q36606\\documents\\github\\sqlsharp\\src\\sqlsharp\\interfaces\\isqlclientsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F80FB3-23F6-43D8-A16E-4FA747013350}|SqlSharp\\SqlClientSharp.csproj|solutionrelative:sqlsharp\\interfaces\\isqlclientsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +41,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp.NUnitTest\\UnitTest.cs",
+              "RelativeDocumentMoniker": "SqlSharp.NUnitTest\\UnitTest.cs",
+              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp.NUnitTest\\UnitTest.cs",
+              "RelativeToolTip": "SqlSharp.NUnitTest\\UnitTest.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwFsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:08:24.338Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\q36606\\AppData\\Roaming\\Microsoft\\UserSecrets\\c562c7ff-3260-4cb0-ab5e-c140fbad186c\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\c562c7ff-3260-4cb0-ab5e-c140fbad186c\\secrets.json",
+              "ToolTip": "C:\\Users\\q36606\\AppData\\Roaming\\Microsoft\\UserSecrets\\c562c7ff-3260-4cb0-ab5e-c140fbad186c\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\c562c7ff-3260-4cb0-ab5e-c140fbad186c\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-19T06:22:34.2Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -18,6 +78,84 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "secrets_sample.json",
+              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp.NUnitTest\\secrets_sample.json",
+              "RelativeDocumentMoniker": "SqlSharp.NUnitTest\\secrets_sample.json",
+              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp.NUnitTest\\secrets_sample.json",
+              "RelativeToolTip": "SqlSharp.NUnitTest\\secrets_sample.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-19T06:25:35.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SecretAppSettingReader.cs",
+              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp.NUnitTest\\SecretAppSettingReader.cs",
+              "RelativeDocumentMoniker": "SqlSharp.NUnitTest\\SecretAppSettingReader.cs",
+              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp.NUnitTest\\SecretAppSettingReader.cs",
+              "RelativeToolTip": "SqlSharp.NUnitTest\\SecretAppSettingReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:21:33.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SecretAppSetting.cs",
+              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp.NUnitTest\\SecretAppSetting.cs",
+              "RelativeDocumentMoniker": "SqlSharp.NUnitTest\\SecretAppSetting.cs",
+              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp.NUnitTest\\SecretAppSetting.cs",
+              "RelativeToolTip": "SqlSharp.NUnitTest\\SecretAppSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:21:04.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISqlClientSharp.cs",
+              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\Interfaces\\ISqlClientSharp.cs",
+              "RelativeDocumentMoniker": "SqlSharp\\Interfaces\\ISqlClientSharp.cs",
+              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\Interfaces\\ISqlClientSharp.cs",
+              "RelativeToolTip": "SqlSharp\\Interfaces\\ISqlClientSharp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:13:06.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SqlClientSharp.cs",
+              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\SqlClientSharp.cs",
+              "RelativeDocumentMoniker": "SqlSharp\\SqlClientSharp.cs",
+              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\SqlClientSharp.cs",
+              "RelativeToolTip": "SqlSharp\\SqlClientSharp.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:11:26.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SqlClientConnectionBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\SqlClientConnectionBuilder.cs",
+              "RelativeDocumentMoniker": "SqlSharp\\SqlClientConnectionBuilder.cs",
+              "ToolTip": "C:\\Users\\q36606\\Documents\\GitHub\\SqlSharp\\src\\SqlSharp\\SqlClientConnectionBuilder.cs",
+              "RelativeToolTip": "SqlSharp\\SqlClientConnectionBuilder.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:10:09.193Z",
+              "EditorCaption": ""
             }
           ]
         }
