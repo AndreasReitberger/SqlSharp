@@ -40,8 +40,8 @@ jobs:
         echo "PACKAGE VERSION: $VERSION"
         
         New-Item -ItemType Directory -Force -Path .\artifacts
-        dotnet pack --output ./artifacts --configuration Release ./src/SqlSharp/SqlSharp.csproj
- #       dotnet pack --output ./artifacts --configuration Release -p:PackageVersion=$VERSION ./src/SqlSharp/SqlSharp.csproj
+        dotnet pack --output ./artifacts --configuration Release ./src/SqlSharp/SqlClientSharp.csproj
+ #       dotnet pack --output ./artifacts --configuration Release -p:PackageVersion=$VERSION ./src/SqlSharp/SqlClientSharp.csproj
         
     - name: Artifacts
       uses: actions/upload-artifact@v4
