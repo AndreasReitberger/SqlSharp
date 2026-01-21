@@ -13,7 +13,9 @@
 	<OutputType>Library</OutputType>
 	<LangVersion>Preview</LangVersion>
 	<Nullable>enable</Nullable>
-	  
+
+
+	<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
 	<PackageProjectUrl>https://github.com/AndreasReitberger/SqlSharp</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/AndreasReitberger/SqlSharp</RepositoryUrl>
 	<RepositoryType>git</RepositoryType>

@@ -5,10 +5,10 @@ namespace AndreasReitberger.SQL.NUnitTest
 {
     public class Tests
     {
-        string _server = SecretAppSettingReader.ReadSection<SecretAppSetting>("TestSetup").Server ?? "";
-        string _databaseName = SecretAppSettingReader.ReadSection<SecretAppSetting>("TestSetup").DatabaseName ?? "";
-        string _user = SecretAppSettingReader.ReadSection<SecretAppSetting>("TestSetup").User ?? "";
-        string _password = SecretAppSettingReader.ReadSection<SecretAppSetting>("TestSetup").Password ?? "";
+        string _server = SecretAppSettingReader.ReadSection<SecretAppSetting>("TestSetup")?.Server ?? "";
+        string _databaseName = SecretAppSettingReader.ReadSection<SecretAppSetting>("TestSetup")?.DatabaseName ?? "";
+        string _user = SecretAppSettingReader.ReadSection<SecretAppSetting>("TestSetup")?.User ?? "";
+        string _password = SecretAppSettingReader.ReadSection<SecretAppSetting>("TestSetup")?.Password ?? "";
         string _connectionString = string.Empty;
 
 
